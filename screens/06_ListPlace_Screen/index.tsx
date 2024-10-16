@@ -44,7 +44,7 @@ const places: Place[] = [
   },
 ];
 
-const ListPlaceScreen: React.FC = () => {
+const ListPlaceScreen = () => {
   const [favourites, setFavourites] = useState<number[]>([]); // Mảng các id đã được yêu thích
 
   // Hàm xử lý yêu thích
