@@ -1,6 +1,6 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
-import { CreditCardScreen, ListCryptoScreen, LoginScreen, RegisterScreen, SettingScreen } from './screens'
+import { CreditCardScreen, ListCryptoScreen, ListPlaceScreen, LoginScreen, RegisterScreen, SettingScreen } from './screens'
 
 type Props = {}
 
@@ -11,7 +11,8 @@ const App = (props: Props) => {
       {/* <RegisterScreen /> */}
       {/* <SettingScreen /> */}
       {/* <ListCryptoScreen /> */}
-      <CreditCardScreen />
+      {/* <CreditCardScreen /> */}
+      <ListPlaceScreen />
     </>
   )
 }
