@@ -61,7 +61,7 @@ const LoginScreen = () => {
             <TouchableOpacity
               onPress={() => {
                 // handle onPress
-                console.log("Submit form")
+                console.log(form)
               }}>
               <View style={styles.btn}>
                 <Text style={styles.btnText}>Sign in</Text>
