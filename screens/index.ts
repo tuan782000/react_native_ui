@@ -13,6 +13,7 @@ import AnimatedPageHeaderScreen from './12_Animated_Page_Header_Screen'
 import SettingScreenV3 from './13_Setting_Screen_V3'
 import SimpleCalendarDatePicker from './14_SimpleCalendarDatePicker'
 import SocialNetworkDetailedScreen from './15_Social_Network_Detailed_Screen'
+import FoodDeliveryDetailedScreen from './16_Food_Delivery_Detailed_Screen'
 
 export {
     LoginScreen,
@@ -29,5 +30,6 @@ export {
     AnimatedPageHeaderScreen,
     SettingScreenV3,
     SimpleCalendarDatePicker,
-    SocialNetworkDetailedScreen
+    SocialNetworkDetailedScreen,
+    FoodDeliveryDetailedScreen
 }
