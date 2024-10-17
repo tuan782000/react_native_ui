@@ -7,6 +7,7 @@ import {
   LoginScreen, 
   RegisterScreen, 
   SettingScreen, 
+  SettingScreenNew, 
   SignInPhoneNumberScreen, 
   SimpleActionSheetScreen 
 } from './screens'
@@ -26,7 +27,8 @@ const App = (props: Props) => {
         {/* <CreditCardScreen /> */}
         {/* <ListPlaceScreen /> */}
         {/* <SignInPhoneNumberScreen /> */}
-        <SimpleActionSheetScreen />
+        {/* <SimpleActionSheetScreen /> */}
+        <SettingScreenNew />
       </GestureHandlerRootView>
     </>
   )
