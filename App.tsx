@@ -10,6 +10,7 @@ import {
   RegisterScreen, 
   SettingScreen, 
   SettingScreenNew, 
+  SettingScreenV3, 
   SignInPhoneNumberScreen, 
   SimpleActionSheetScreen, 
   SimpleCardListScreen
@@ -34,7 +35,8 @@ const App = (props: Props) => {
         {/* <SettingScreenNew /> */}
         {/* <PlanPickerScreen /> */}
         {/* <SimpleCardListScreen /> */}
-        <AnimatedPageHeaderScreen />
+        {/* <AnimatedPageHeaderScreen /> */}
+        <SettingScreenV3 />
       </GestureHandlerRootView>
     </>
   )
