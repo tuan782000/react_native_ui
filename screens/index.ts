@@ -5,6 +5,7 @@ import ListCryptoScreen from './04_List_Crypto_Screen'
 import CreditCardScreen from './05_CreditCard_Screen'
 import ListPlaceScreen from './06_ListPlace_Screen'
 import SignInPhoneNumberScreen from './07_SignInPhoneNumber_Screen'
+import SimpleActionSheetScreen from './08_Simple_Action_Sheet_Screen'
 
 export {
     LoginScreen,
@@ -13,5 +14,6 @@ export {
     ListCryptoScreen,
     CreditCardScreen,
     ListPlaceScreen,
-    SignInPhoneNumberScreen
+    SignInPhoneNumberScreen,
+    SimpleActionSheetScreen
 }
