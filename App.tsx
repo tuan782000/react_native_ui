@@ -5,6 +5,7 @@ import {
   ListCryptoScreen, 
   ListPlaceScreen, 
   LoginScreen, 
+  PlanPickerScreen, 
   RegisterScreen, 
   SettingScreen, 
   SettingScreenNew, 
@@ -28,7 +29,8 @@ const App = (props: Props) => {
         {/* <ListPlaceScreen /> */}
         {/* <SignInPhoneNumberScreen /> */}
         {/* <SimpleActionSheetScreen /> */}
-        <SettingScreenNew />
+        {/* <SettingScreenNew /> */}
+        <PlanPickerScreen />
       </GestureHandlerRootView>
     </>
   )

@@ -33,3 +33,8 @@ Bước 8: Sau khi xong hết: npx react-native-asset
 Nó sẽ auto thực hiện thêm vào ios và android các fonts mình đã làm ở assets/fonts
 
 
+# Cần làm
+
+react native swipper - làm slide của ảnh
+
+https://www.youtube.com/watch?v=DXsR5MkMhCo&t=2366s
