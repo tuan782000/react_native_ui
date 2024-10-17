@@ -9,6 +9,7 @@ import SimpleActionSheetScreen from './08_Simple_Action_Sheet_Screen'
 import SettingScreenNew from './09_Setting_Screen'
 import PlanPickerScreen from './10_Plan_Picker'
 import SimpleCardListScreen from './11_Simple_Card_List_Screen'
+import AnimatedPageHeaderScreen from './12_Animated_Page_Header_Screen'
 
 export {
     LoginScreen,
@@ -21,5 +22,6 @@ export {
     SimpleActionSheetScreen,
     SettingScreenNew,
     PlanPickerScreen,
-    SimpleCardListScreen
+    SimpleCardListScreen,
+    AnimatedPageHeaderScreen
 }
