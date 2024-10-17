@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet, Text, TouchableWithoutFeedback, View, Dimensions } from 'react-native'
+import { SafeAreaView, StyleSheet, Text, TouchableWithoutFeedback, View, Dimensions, TouchableOpacity } from 'react-native'
 import React, { useMemo, useRef, useState } from 'react'
 import moment from 'moment'
 import Swiper from 'react-native-swiper'
@@ -75,6 +75,13 @@ const SimpleCalendarDatePicker = () => {
                         }
                     </Swiper>
                 </View>
+                <View style={{flex: 1, paddingVertical: 24, paddingHorizontal: 16}}>
+                    <Text style={styles.contentText}>{value.toDateString()}</Text>
+                    <View style={{flex: 1, borderWidth: 4, borderStyle: 'dashed', marginBottom: 24, borderColor: '#e5e7eb'}}></View>
+                    <TouchableOpacity style={{marginTop: 12, minHeight: 54, backgroundColor: '#000', borderRadius: 10, justifyContent: 'center', alignItems: 'center'}} activeOpacity={0.8}>
+                        <Text style={{alignItems: 'center', color: '#fff', fontWeight: '600', fontSize: 18}}>Schedule</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         </SafeAreaView>
     )
@@ -132,5 +139,11 @@ const styles = StyleSheet.create({
         fontSize: 15,
         fontWeight: '600',
         color: '#111'
+    },
+    contentText: {
+        fontSize: 17,
+        fontWeight: '600',
+        color: '#999',
+        marginBottom: 12
     }
 })
