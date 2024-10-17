@@ -33,7 +33,7 @@ const PlanPickerScreen = () => {
             <Text style={styles.title}>PlanPickerScreen</Text>
             {
                 items.map(({label, price, badge, description}, index) => {
-                    const isActive = value === index
+                    const isActive = value === index // true or false
                     return (
                         <TouchableOpacity key={index} onPress={() => {
                             setValue(index)

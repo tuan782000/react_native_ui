@@ -10,7 +10,8 @@ import {
   SettingScreen, 
   SettingScreenNew, 
   SignInPhoneNumberScreen, 
-  SimpleActionSheetScreen 
+  SimpleActionSheetScreen, 
+  SimpleCardListScreen
 } from './screens'
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
@@ -30,7 +31,8 @@ const App = (props: Props) => {
         {/* <SignInPhoneNumberScreen /> */}
         {/* <SimpleActionSheetScreen /> */}
         {/* <SettingScreenNew /> */}
-        <PlanPickerScreen />
+        {/* <PlanPickerScreen /> */}
+        <SimpleCardListScreen />
       </GestureHandlerRootView>
     </>
   )
