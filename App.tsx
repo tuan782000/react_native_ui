@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 import { 
   AnimatedPageHeaderScreen,
+  CountryPickerWithFlags,
   CreditCardScreen, 
   DetailedCarRentalScreen, 
   FoodDeliveryDetailedScreen, 
@@ -46,7 +47,8 @@ const App = (props: Props) => {
         {/* <SocialNetworkDetailedScreen /> */}
         {/* <FoodDeliveryDetailedScreen /> */}
         {/* <SimpleTabsWithIconsScreen /> */}
-        <DetailedCarRentalScreen />
+        {/* <DetailedCarRentalScreen /> */}
+        <CountryPickerWithFlags />
       </GestureHandlerRootView>
     </>
   )
