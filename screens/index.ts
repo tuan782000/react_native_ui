@@ -17,6 +17,7 @@ import FoodDeliveryDetailedScreen from './16_Food_Delivery_Detailed_Screen'
 import SimpleTabsWithIconsScreen from './17_Simple_Tabs_with_Icons_Screen'
 import DetailedCarRentalScreen from './18_Detailed_Car_Rental_Screen'
 import CountryPickerWithFlags from './19_Country_Picker_with_Flags'
+import SimpleSearchScreen from './20_Simple_Search_Screen'
 
 export {
     LoginScreen,
@@ -37,5 +38,6 @@ export {
     FoodDeliveryDetailedScreen,
     SimpleTabsWithIconsScreen,
     DetailedCarRentalScreen,
-    CountryPickerWithFlags
+    CountryPickerWithFlags,
+    SimpleSearchScreen
 }

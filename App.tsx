@@ -18,6 +18,7 @@ import {
   SimpleActionSheetScreen, 
   SimpleCalendarDatePicker, 
   SimpleCardListScreen,
+  SimpleSearchScreen,
   SimpleTabsWithIconsScreen,
   SocialNetworkDetailedScreen
 } from './screens'
@@ -48,7 +49,8 @@ const App = (props: Props) => {
         {/* <FoodDeliveryDetailedScreen /> */}
         {/* <SimpleTabsWithIconsScreen /> */}
         {/* <DetailedCarRentalScreen /> */}
-        <CountryPickerWithFlags />
+        {/* <CountryPickerWithFlags /> */}
+        <SimpleSearchScreen />
       </GestureHandlerRootView>
     </>
   )
