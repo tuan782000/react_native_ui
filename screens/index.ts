@@ -14,6 +14,7 @@ import SettingScreenV3 from './13_Setting_Screen_V3'
 import SimpleCalendarDatePicker from './14_SimpleCalendarDatePicker'
 import SocialNetworkDetailedScreen from './15_Social_Network_Detailed_Screen'
 import FoodDeliveryDetailedScreen from './16_Food_Delivery_Detailed_Screen'
+import SimpleTabsWithIconsScreen from './17_Simple_Tabs_with_Icons_Screen'
 
 export {
     LoginScreen,
@@ -31,5 +32,6 @@ export {
     SettingScreenV3,
     SimpleCalendarDatePicker,
     SocialNetworkDetailedScreen,
-    FoodDeliveryDetailedScreen
+    FoodDeliveryDetailedScreen,
+    SimpleTabsWithIconsScreen
 }
