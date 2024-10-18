@@ -3,6 +3,7 @@ import React from 'react'
 import { 
   AnimatedPageHeaderScreen,
   CreditCardScreen, 
+  DetailedCarRentalScreen, 
   FoodDeliveryDetailedScreen, 
   ListCryptoScreen, 
   ListPlaceScreen, 
@@ -44,7 +45,8 @@ const App = (props: Props) => {
         {/* <SimpleCalendarDatePicker /> */}
         {/* <SocialNetworkDetailedScreen /> */}
         {/* <FoodDeliveryDetailedScreen /> */}
-        <SimpleTabsWithIconsScreen />
+        {/* <SimpleTabsWithIconsScreen /> */}
+        <DetailedCarRentalScreen />
       </GestureHandlerRootView>
     </>
   )
