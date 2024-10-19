@@ -6,6 +6,7 @@ import {
   CreditCardScreen, 
   CustomComponent, 
   DetailedCarRentalScreen, 
+  EditFlatListScreen, 
   FoodDeliveryDetailedScreen, 
   ListCryptoScreen, 
   ListPlaceScreen, 
@@ -61,7 +62,8 @@ const App = (props: Props) => {
         {/* <SwipeSlide /> */}
         {/* <ScrollToItemSelectedScreen/> */}
         {/* <MultipleSelectedFlatListScreen /> */}
-        <MultipleSelectedFlatListScreen />
+        {/* <MultipleSelectedFlatListScreen /> */}
+        <EditFlatListScreen />
       </GestureHandlerRootView>
     </>
   )
