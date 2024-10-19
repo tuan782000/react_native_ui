@@ -22,6 +22,8 @@ import CustomComponent from './00_UsingComponents'
 import ScrollItemWithFlatList from './21_ScrollItem_With_FlatList'
 import SwipeSlide from './22_Slider_Screen'
 import ScrollToItemSelectedScreen from './23_Scroll_To_Item_Selected_Screen'
+import MultipleSelectedFlatListScreen from './24_Multiple_Selected_FlatList'
+
 
 export {
     CustomComponent,
@@ -48,4 +50,5 @@ export {
     ScrollItemWithFlatList,
     SwipeSlide,
     ScrollToItemSelectedScreen,
+    MultipleSelectedFlatListScreen
 }

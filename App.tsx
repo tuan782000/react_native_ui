@@ -10,6 +10,7 @@ import {
   ListCryptoScreen, 
   ListPlaceScreen, 
   LoginScreen, 
+  MultipleSelectedFlatListScreen, 
   PlanPickerScreen, 
   RegisterScreen, 
   ScrollItemWithFlatList, 
@@ -58,7 +59,9 @@ const App = (props: Props) => {
         {/* <SimpleSearchScreen /> */}
         {/* <ScrollItemWithFlatList /> */}
         {/* <SwipeSlide /> */}
-        <ScrollToItemSelectedScreen/>
+        {/* <ScrollToItemSelectedScreen/> */}
+        {/* <MultipleSelectedFlatListScreen /> */}
+        <MultipleSelectedFlatListScreen />
       </GestureHandlerRootView>
     </>
   )

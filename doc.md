@@ -1083,3 +1083,11 @@ const styles = StyleSheet.create({
 
 ## Scroll To Item Selected Trong FlatList (Vertical, Horizontal)
 
+## Multiple Selected FlatList Screen
+
+cần phải cài đặt thư viện 
+
+yarn add @react-native-community/checkbox
+
+trước đây checkbox sẽ có sẵn react native - nhưng đã tách ra
+
