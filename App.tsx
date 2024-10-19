@@ -22,7 +22,8 @@ import {
   SimpleCardListScreen,
   SimpleSearchScreen,
   SimpleTabsWithIconsScreen,
-  SocialNetworkDetailedScreen
+  SocialNetworkDetailedScreen,
+  SwipeSlide
 } from './screens'
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
@@ -54,7 +55,8 @@ const App = (props: Props) => {
         {/* <DetailedCarRentalScreen /> */}
         {/* <CountryPickerWithFlags /> */}
         {/* <SimpleSearchScreen /> */}
-        <ScrollItemWithFlatList />
+        {/* <ScrollItemWithFlatList /> */}
+        <SwipeSlide />
       </GestureHandlerRootView>
     </>
   )

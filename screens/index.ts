@@ -20,6 +20,7 @@ import CountryPickerWithFlags from './19_Country_Picker_with_Flags'
 import SimpleSearchScreen from './20_Simple_Search_Screen'
 import CustomComponent from './00_UsingComponents'
 import ScrollItemWithFlatList from './21_ScrollItem_With_FlatList'
+import SwipeSlide from './22_Slider_Screen'
 
 export {
     CustomComponent,
@@ -43,5 +44,6 @@ export {
     DetailedCarRentalScreen,
     CountryPickerWithFlags,
     SimpleSearchScreen,
-    ScrollItemWithFlatList
+    ScrollItemWithFlatList,
+    SwipeSlide
 }
