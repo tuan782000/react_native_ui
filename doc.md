@@ -1080,3 +1080,6 @@ const styles = StyleSheet.create({
     }
 })
 ```
+
+## Scroll To Item Selected Trong FlatList (Vertical, Horizontal)
+

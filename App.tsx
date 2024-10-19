@@ -13,6 +13,7 @@ import {
   PlanPickerScreen, 
   RegisterScreen, 
   ScrollItemWithFlatList, 
+  ScrollToItemSelectedScreen, 
   SettingScreen, 
   SettingScreenNew, 
   SettingScreenV3, 
@@ -56,7 +57,8 @@ const App = (props: Props) => {
         {/* <CountryPickerWithFlags /> */}
         {/* <SimpleSearchScreen /> */}
         {/* <ScrollItemWithFlatList /> */}
-        <SwipeSlide />
+        {/* <SwipeSlide /> */}
+        <ScrollToItemSelectedScreen/>
       </GestureHandlerRootView>
     </>
   )
