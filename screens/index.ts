@@ -18,8 +18,11 @@ import SimpleTabsWithIconsScreen from './17_Simple_Tabs_with_Icons_Screen'
 import DetailedCarRentalScreen from './18_Detailed_Car_Rental_Screen'
 import CountryPickerWithFlags from './19_Country_Picker_with_Flags'
 import SimpleSearchScreen from './20_Simple_Search_Screen'
+import CustomComponent from './00_UsingComponents'
+import ScrollItemWithFlatList from './21_ScrollItem_With_FlatList'
 
 export {
+    CustomComponent,
     LoginScreen,
     RegisterScreen,
     SettingScreen,
@@ -39,5 +42,6 @@ export {
     SimpleTabsWithIconsScreen,
     DetailedCarRentalScreen,
     CountryPickerWithFlags,
-    SimpleSearchScreen
+    SimpleSearchScreen,
+    ScrollItemWithFlatList
 }

@@ -4,6 +4,7 @@ import {
   AnimatedPageHeaderScreen,
   CountryPickerWithFlags,
   CreditCardScreen, 
+  CustomComponent, 
   DetailedCarRentalScreen, 
   FoodDeliveryDetailedScreen, 
   ListCryptoScreen, 
@@ -11,6 +12,7 @@ import {
   LoginScreen, 
   PlanPickerScreen, 
   RegisterScreen, 
+  ScrollItemWithFlatList, 
   SettingScreen, 
   SettingScreenNew, 
   SettingScreenV3, 
@@ -31,6 +33,7 @@ const App = (props: Props) => {
   return (
     <>
       <GestureHandlerRootView style={{ flex: 1 }}>
+        {/* <CustomComponent /> */}
         {/* <LoginScreen /> */}
         {/* <RegisterScreen /> */}
         {/* <SettingScreen /> */}
@@ -50,7 +53,8 @@ const App = (props: Props) => {
         {/* <SimpleTabsWithIconsScreen /> */}
         {/* <DetailedCarRentalScreen /> */}
         {/* <CountryPickerWithFlags /> */}
-        <SimpleSearchScreen />
+        {/* <SimpleSearchScreen /> */}
+        <ScrollItemWithFlatList />
       </GestureHandlerRootView>
     </>
   )
