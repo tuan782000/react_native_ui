@@ -24,6 +24,7 @@ import SwipeSlide from './22_Slider_Screen'
 import ScrollToItemSelectedScreen from './23_Scroll_To_Item_Selected_Screen'
 import MultipleSelectedFlatListScreen from './24_Multiple_Selected_FlatList'
 import EditFlatListScreen from './25_Editable_FlatList_Screen'
+import SwitchScreen from './26_Switch_Screen'
 
 
 export {
@@ -52,5 +53,6 @@ export {
     SwipeSlide,
     ScrollToItemSelectedScreen,
     MultipleSelectedFlatListScreen,
-    EditFlatListScreen
+    EditFlatListScreen,
+    SwitchScreen
 }
