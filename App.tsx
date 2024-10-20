@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 import { 
   AnimatedPageHeaderScreen,
+  AppStateScreen,
   CountryPickerWithFlags,
   CreditCardScreen, 
   CustomComponent, 
@@ -65,7 +66,8 @@ const App = (props: Props) => {
         {/* <MultipleSelectedFlatListScreen /> */}
         {/* <MultipleSelectedFlatListScreen /> */}
         {/* <EditFlatListScreen /> */}
-        <SwitchScreen />
+        {/* <SwitchScreen /> */}
+        <AppStateScreen />
       </GestureHandlerRootView>
     </>
   )

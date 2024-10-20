@@ -1091,3 +1091,13 @@ yarn add @react-native-community/checkbox
 
 trước đây checkbox sẽ có sẵn react native - nhưng đã tách ra
 
+## AppState
+
+Hướng dẫn sử dụng AppState (Active | Background | InActive)
+
+Trạng thái vuốt ra nhiều tab: InActive
+
+Vuốt tắt App: xuống Background
+
+Mở App: Active
+
