@@ -14,6 +14,7 @@ import {
   LoginScreen, 
   MultipleSelectedFlatListScreen, 
   PlanPickerScreen, 
+  PullToRefreshFlatListScreen, 
   RegisterScreen, 
   ScrollItemWithFlatList, 
   ScrollToItemSelectedScreen, 
@@ -67,7 +68,8 @@ const App = (props: Props) => {
         {/* <MultipleSelectedFlatListScreen /> */}
         {/* <EditFlatListScreen /> */}
         {/* <SwitchScreen /> */}
-        <AppStateScreen />
+        {/* <AppStateScreen /> */}
+        <PullToRefreshFlatListScreen />
       </GestureHandlerRootView>
     </>
   )

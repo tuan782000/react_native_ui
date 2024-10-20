@@ -51,7 +51,7 @@ const AppStateScreen = () => {
     thì nó sẽ in ra console thông báo rằng ứng dụng đã trở lại foreground (đang hoạt động).
     */ 
     const _handleAppStateChange = (nextAppState) => {
-        if(appState.current.match(/inactive | background/) && nextAppState === "active") {
+        if(appState.current.match(/inactive|background/) && nextAppState === "active") {
             console.log("App has come to the foreground or Active / App đang lên foreground hoặc đang Active")
         }
 

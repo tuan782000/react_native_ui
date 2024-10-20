@@ -1101,3 +1101,17 @@ Vuốt tắt App: xuống Background
 
 Mở App: Active
 
+## ActivityIndicator
+
+```jsx
+<ActivityIndiactor size="large" color="#00ff00">
+```
+
+size kích thước hiển thị, mặc dịnh small,
+color: màu sắc của nó - có thể điều chỉnh
+
+
+## Pull To Refresh trong FlatList
+
+Làm mới lại các item trong FlatList
+
