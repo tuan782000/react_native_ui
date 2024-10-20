@@ -43,7 +43,7 @@ const PullToRefreshFlatList = () => {
         console.log("Reload")
     }
 
-    const ItemView = ({index, item}) => {
+    const ItemView = ({index, item}: any) => {
         return (
             <Text style={styles.itemStyle}>
                 {index}. {item.title}
@@ -67,6 +67,22 @@ const PullToRefreshFlatList = () => {
         )
     }
 
+    const ListHeaderView = () => {
+        return (
+            <View style={{width: '100%', minHeight: 54, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center'}}>
+                <Text style={{fontSize: 22, color: '#fff'}}>Header</Text>
+
+            </View>
+        )
+    }
+    const ListFooterView = () => {
+        return (
+            <View style={{width: '100%', minHeight: 54, backgroundColor: 'coral', justifyContent: 'center', alignItems: 'center'}}>
+                <Text style={{fontSize: 22, color: '#fff'}}>footer</Text>
+            </View>
+        )
+    }
+
     return (
         <SafeAreaView style={{ flex: 1 }}>
             {
@@ -86,6 +102,8 @@ const PullToRefreshFlatList = () => {
                             />
                         }
                         ListEmptyComponent={ListEmptyView}
+                        ListHeaderComponent={ListHeaderView} // tạo tiêu đề cho danh sách
+                        ListFooterComponent={ListFooterView} // tạo footer cho danh sách
                     />
                 </View>
             }
