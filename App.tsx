@@ -7,7 +7,9 @@ import {
   CreditCardScreen, 
   CustomComponent, 
   DetailedCarRentalScreen, 
+  DropDownListScreen, 
   EditFlatListScreen, 
+  FlatListInfiniteScrollSearch, 
   FoodDeliveryDetailedScreen, 
   ListCryptoScreen, 
   ListPlaceScreen, 
@@ -69,7 +71,9 @@ const App = (props: Props) => {
         {/* <EditFlatListScreen /> */}
         {/* <SwitchScreen /> */}
         {/* <AppStateScreen /> */}
-        <PullToRefreshFlatListScreen />
+        {/* <PullToRefreshFlatListScreen /> */}
+        {/* <DropDownListScreen/> */}
+        <FlatListInfiniteScrollSearch />
       </GestureHandlerRootView>
     </>
   )
