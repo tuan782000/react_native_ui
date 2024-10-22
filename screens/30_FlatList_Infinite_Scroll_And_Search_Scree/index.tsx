@@ -1,5 +1,5 @@
 import { ActivityIndicator, FlatList, Image, SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useCallback } from 'react'
 import { InputComponent } from '../../components'
 import AntDesign from 'react-native-vector-icons/AntDesign'
 
